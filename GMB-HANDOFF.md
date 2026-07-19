@@ -16,6 +16,9 @@ Build and launch a polished Houston car detailing website, connect `bayoubrillia
 - Registration date: 2026-07-19
 - Expiration date: 2027-07-19
 - Registration settings: one year, high privacy, auto-renew disabled
+- GitHub repository: https://github.com/DaInfernalCoder/bayou-brilliance-detailing
+- Vercel fallback: https://bayou-brilliance-detailing.vercel.app
+- Vercel project: https://vercel.com/dainfernalcoders-projects/bayou-brilliance-detailing
 
 ## Decisions and truth constraints
 
@@ -56,13 +59,13 @@ Build and launch a polished Houston car detailing website, connect `bayoubrillia
 - [x] Run static preflight.
 - [x] Run browser QA at desktop, tablet, and phone widths.
 - [x] Inspect resting header contrast at desktop and phone widths.
-- [ ] Initialize and commit clean `main`.
-- [ ] Create and push the dedicated GitHub repository.
-- [ ] Deploy through Vercel with Git integration.
-- [ ] Attach apex and `www`.
-- [ ] Save Vercel nameservers at Spaceship and verify once.
-- [ ] Build and validate the local GMB asset pack.
-- [ ] Record final operating state and links.
+- [x] Initialize and commit clean `main`.
+- [x] Create and push the dedicated GitHub repository.
+- [x] Deploy through Vercel with Git integration.
+- [x] Attach apex and `www`.
+- [x] Save Vercel nameservers at Spaceship and verify once.
+- [x] Build and validate the local GMB asset pack.
+- [x] Record final operating state and links.
 
 ## Current state
 
@@ -72,10 +75,16 @@ The dependency-free site is implemented with an independent dark header scrim, a
 
 Static preflight passes. Browser QA passes at 1440×1000, 1024×900, and 390×844 with complete images, no console errors, no horizontal overflow, a working mobile menu and FAQ, and a solid header background. Dedicated resting-position screenshots confirm legible logo/navigation and visible call-button text at desktop and phone widths.
 
+GitHub `main` is connected to Vercel. Initial launch commit `c53eb51` deployed as production deployment `dpl_CxEGMbiTLFWCCYVAwAtjyjWV3iU8`, which reported `READY`; the stable Vercel fallback serves the intended site over HTTPS with status 200. Both `bayoubrilliance.shop` and `www.bayoubrilliance.shop` are attached to the project.
+
+Spaceship readback confirms the intended custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com` are saved. The single immediate public DNS observation returned no delegated nameservers, which is expected during fresh registration propagation; custom-domain DNS and HTTPS are propagation pending and were not polled further.
+
+The local GMB pack is complete and visually reviewed with one 1200×1200 production-logo PNG, four distinct 1600×900 cover JPGs, four distinct business JPGs, `GMB-INFO.txt`, and `SOURCES.txt`. The 678-character Google Business Profile description contains `Car Detailing Houston` in all five sentences, repeats Houston and Texas, and matches the site, phone, domain, and handoff.
+
 ## Blocker
 
-None.
+Custom-domain DNS and HTTPS propagation only. This is a non-blocking external wait.
 
 ## Exact next action
 
-Verify provider identities, create the dedicated GitHub repository, and deploy the current production build through Vercel.
+No action is required while DNS propagates. Verify `https://bayoubrilliance.shop` and `https://www.bayoubrilliance.shop` in a later session.

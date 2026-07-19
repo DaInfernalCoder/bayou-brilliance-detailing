@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Bayou Brilliance logo</title>
+  <desc id="desc">A geometric double B crossed by a reflective bayou line</desc>
+  <rect width="120" height="120" rx="28" fill="#0B302F"/>
+  <path d="M31 24h28c18 0 28 8 28 21 0 9-5 15-14 18 12 3 18 11 18 22 0 15-11 23-31 23H31V24Zm18 15v18h9c7 0 11-3 11-9s-4-9-11-9h-9Zm0 32v21h11c8 0 13-3 13-10 0-8-5-11-14-11H49Z" fill="#F7FAF9"/>
+  <path d="M10 70c20-18 33-17 49-5 17 13 31 14 51-7" fill="none" stroke="#F2C84B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M16 79c18-10 31-9 45 1 13 9 27 10 43-1" fill="none" stroke="#4C99A0" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+</svg>

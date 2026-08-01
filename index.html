@@ -37,7 +37,45 @@
           "Exterior car detailing",
           "Vehicle finish care"
         ],
-        "priceRange": "$200-$250"
+        "priceRange": "$200-$250",
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "name": "Basic Detail",
+            "price": "200",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Basic Detail",
+              "description": "Interior essentials: complete interior wipe down, triple-stage vacuuming, and mat cleaning and refresh."
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Premium Detail",
+            "price": "250",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Premium Detail",
+              "description": "The full interior restoration, including complete interior shampoo, deep steam cleaning, fabric and carpet extraction, and leather conditioning."
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Exterior Wash",
+            "price": "50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Exterior Wash",
+              "description": "Add-on exterior wash: hand wash, rim detailing, tire deep clean and shine, door jamb cleaning, and spot-free hand dry."
+            }
+          }
+        ]
       }
     </script>
   </head>
@@ -131,7 +169,6 @@
               </div>
               <div class="service-copy">
                 <h3>Interior reset</h3>
-                <p class="service-price">$200</p>
                 <p>Attention for seating areas, carpets, touchpoints, trim, and the small spaces that collect daily use.</p>
               </div>
             </article>
@@ -143,7 +180,6 @@
               </div>
               <div class="service-copy">
                 <h3>Exterior detail</h3>
-                <p class="service-price">$250<span>Includes shampoo</span></p>
                 <p>Paint-safe cleaning with attention to body panels, glass, wheels, tires, and the lines where residue gathers.</p>
               </div>
             </article>
@@ -155,7 +191,6 @@
               </div>
               <div class="service-copy">
                 <h3>Finish attention</h3>
-                <p class="service-price">$250</p>
                 <p>A closer look at dullness, surface clarity, and the finishing steps that can bring back a cleaner reflection.</p>
               </div>
             </article>
@@ -173,6 +208,64 @@
           </div>
         </div>
       </section>
+
+    <section class="rates" id="pricing" aria-labelledby="pricing-title">
+      <div class="rates-shell">
+        <div class="rates-head">
+          <p class="rates-eyebrow">Pricing</p>
+          <h2 id="pricing-title">Flat rates. Booked online in a minute.</h2>
+          <p class="rates-intro">Pick the level of care your vehicle needs. Add the exterior wash to either detail.</p>
+        </div>
+
+        <div class="rate-grid">
+          <article class="rate-card">
+            <h3>Basic Detail</h3>
+            <p class="rate-figure">$200</p>
+            <p class="rate-note">Interior essentials, handled properly.</p>
+            <ul class="rate-list">
+              <li>Complete Interior Wipe Down</li>
+              <li>Triple-Stage Vacuuming</li>
+              <li>Mat Cleaning &amp; Refresh</li>
+            </ul>
+            <a class="rate-cta" href="https://cal.com/sumitdatta/auto-detail-service" target="_blank" rel="noopener">Book Online</a>
+          </article>
+          <article class="rate-card rate-card-featured">
+            <span class="rate-badge">Most booked</span>
+            <h3>Premium Detail</h3>
+            <p class="rate-figure">$250</p>
+            <p class="rate-note">The full interior restoration, with shampoo.</p>
+            <ul class="rate-list">
+              <li>Triple-Stage Vacuuming</li>
+              <li>Seat &amp; Carpet Stain Removal</li>
+              <li>Interior Cabin Freshener</li>
+              <li>Full Dust Removal</li>
+              <li>Window Cleaning &amp; Treatment</li>
+              <li>Deep Steam Cleaning</li>
+              <li>Fabric &amp; Carpet Extraction</li>
+              <li>Complete Interior Shampoo</li>
+              <li>Leather Conditioning &amp; Care</li>
+              <li>UV-Protectant Plastic Coating</li>
+            </ul>
+            <a class="rate-cta" href="https://cal.com/sumitdatta/auto-detail-service" target="_blank" rel="noopener">Book Online</a>
+          </article>
+          <article class="rate-card">
+            <h3>Exterior Wash</h3>
+            <p class="rate-figure">+$50</p>
+            <p class="rate-note">Add-on to either detail above.</p>
+            <ul class="rate-list">
+              <li>Hand Wash Exterior</li>
+              <li>Rim Detailing</li>
+              <li>Tire Deep Clean</li>
+              <li>Tire Shine Application</li>
+              <li>Door Jamb &amp; Panel Cleaning</li>
+              <li>Spot-Free Hand Dry</li>
+            </ul>
+            <a class="rate-cta" href="https://cal.com/sumitdatta/auto-detail-service" target="_blank" rel="noopener">Book Online</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
 
       <section class="process section" id="process">
         <div class="shell">

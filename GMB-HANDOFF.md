@@ -10,6 +10,7 @@ Build and launch a polished Houston car detailing website, connect `bayoubrillia
 - Short name: Bayou Brilliance
 - Service: car detailing
 - Primary market: Houston, Texas
+- Street address: 126 Wisteria Walk Cir, Spring, TX 77381
 - Public phone: +1 346-487-3778
 - Appointment link: https://cal.com/sumitdatta/auto-detail-service
 - Domain: `bayoubrilliance.shop`
@@ -64,6 +65,7 @@ Build and launch a polished Houston car detailing website, connect `bayoubrillia
 - [x] Deploy through Vercel with Git integration.
 - [x] Attach apex and `www`.
 - [x] Save Vercel nameservers at Spaceship and verify once.
+- [x] Add the Google Search Console apex TXT verification record.
 - [x] Build and validate the local GMB asset pack.
 - [x] Record final operating state and links.
 
@@ -79,12 +81,14 @@ GitHub `main` is connected to Vercel. Initial launch commit `c53eb51` deployed a
 
 Spaceship readback confirms the intended custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com` are saved. The single immediate public DNS observation returned no delegated nameservers, which is expected during fresh registration propagation; custom-domain DNS and HTTPS are propagation pending and were not polled further.
 
+On 2026-08-06, the Google Search Console apex TXT verification record was added to the authoritative Vercel DNS zone. The one immediate public TXT lookup did not return the new value, so TXT propagation is pending and was not polled further.
+
 The local GMB pack is complete and visually reviewed with one 1200×1200 production-logo PNG, four distinct 1600×900 cover JPGs, four distinct business JPGs, `GMB-INFO.txt`, and `SOURCES.txt`. The 678-character Google Business Profile description contains `Car Detailing Houston` in all five sentences, repeats Houston and Texas, and matches the site, phone, domain, and handoff.
 
 ## Blocker
 
-Custom-domain DNS and HTTPS propagation only. This is a non-blocking external wait.
+Google Search Console TXT propagation is a non-blocking external wait.
 
 ## Exact next action
 
-No action is required while DNS propagates. Verify `https://bayoubrilliance.shop` and `https://www.bayoubrilliance.shop` in a later session.
+Press Verify in Google Search Console after the TXT record becomes publicly visible.

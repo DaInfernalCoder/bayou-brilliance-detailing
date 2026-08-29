@@ -14,3 +14,14 @@
 - Service: Appointment-based mobile car detailing
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Google review profile: https://g.page/r/CbuWfKd7uhWBEBM/review
+
+<!-- SEO-NEXT:START -->
+## Expanded pages
+- [Services](https://bayoubrilliance.shop/services/)
+- [Interior Car Detailing](https://bayoubrilliance.shop/services/interior-car-detailing/)
+- [Exterior Car Detailing](https://bayoubrilliance.shop/services/exterior-car-detailing/)
+- [Mobile Car Wash](https://bayoubrilliance.shop/services/mobile-car-wash/)
+- [Headlight Restoration & Polishing](https://bayoubrilliance.shop/services/headlight-restoration/)
+- [About](https://bayoubrilliance.shop/about/)
+- [Contact](https://bayoubrilliance.shop/contact/)
+<!-- SEO-NEXT:END -->

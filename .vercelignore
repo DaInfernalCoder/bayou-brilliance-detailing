@@ -1,0 +1,23 @@
+
+# Public website assets only; exclude operational records and source tooling.
+.git
+.vercel
+.env*
+*.md
+*.py
+*.pyc
+*.txt
+!robots.txt
+scripts/
+test/
+tests/
+node_modules/
+business-photos/
+cover-photos/
+covers/
+logo/
+storefront-photos/
+SOURCES*
+registry-record.json
+Icon?
+**/Icon?

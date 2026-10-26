@@ -2,7 +2,7 @@
 
 ## Requested outcome
 
-Build and launch a polished Houston car detailing website, connect `bayoubrilliance.shop`, and prepare the complete local Google Business Profile asset pack.
+Build and launch a polished Houston car detailing website, connect `woodlandscardetailing.shop`, and prepare the complete local Google Business Profile asset pack.
 
 ## Confirmed facts
 
@@ -13,7 +13,7 @@ Build and launch a polished Houston car detailing website, connect `bayoubrillia
 - Street address: 126 Wisteria Walk Cir, Spring, TX 77381
 - Public phone: +1 346-487-3778
 - Appointment link: https://cal.com/sumitdatta/auto-detail-service
-- Domain: `bayoubrilliance.shop`
+- Domain: `woodlandscardetailing.shop`
 - Registration date: 2026-07-19
 - Expiration date: 2027-07-19
 - Registration settings: one year, high privacy, auto-renew disabled
@@ -49,7 +49,7 @@ Build and launch a polished Houston car detailing website, connect `bayoubrillia
 - [x] Confirm Houston, Texas and the business phone.
 - [x] Screen the brand and local competitor space.
 - [x] Receive exact-domain purchase approval.
-- [x] Register `bayoubrilliance.shop`.
+- [x] Register `woodlandscardetailing.shop`.
 - [x] Verify high privacy, contact verification, and auto-renew disabled.
 - [x] Create the permanent handoff record.
 - [x] Define and critique the visual direction.
@@ -71,13 +71,13 @@ Build and launch a polished Houston car detailing website, connect `bayoubrillia
 
 ## Current state
 
-`bayoubrilliance.shop` is registered at Spaceship through 2027-07-19. Registrar readback reports `registered`, contact verification `success`, high privacy active, and auto-renew disabled.
+`woodlandscardetailing.shop` is registered at Spaceship through 2027-07-19. Registrar readback reports `registered`, contact verification `success`, high privacy active, and auto-renew disabled.
 
 The dependency-free site is implemented with an independent dark header scrim, an original double-B waterline mark, locally hosted open fonts, licensed stock photography, semantic structure, one H1, direct telephone and Cal.com paths, and no public form or email route. The call and online-booking paths appear together eight times.
 
 Static preflight passes. Browser QA passes at 1440×1000, 1024×900, and 390×844 with complete images, no console errors, no horizontal overflow, a working mobile menu and FAQ, and a solid header background. Dedicated resting-position screenshots confirm legible logo/navigation and visible call-button text at desktop and phone widths.
 
-GitHub `main` is connected to Vercel. Initial launch commit `c53eb51` deployed as production deployment `dpl_CxEGMbiTLFWCCYVAwAtjyjWV3iU8`, which reported `READY`; the stable Vercel fallback serves the intended site over HTTPS with status 200. Both `bayoubrilliance.shop` and `www.bayoubrilliance.shop` are attached to the project.
+GitHub `main` is connected to Vercel. Initial launch commit `c53eb51` deployed as production deployment `dpl_CxEGMbiTLFWCCYVAwAtjyjWV3iU8`, which reported `READY`; the stable Vercel fallback serves the intended site over HTTPS with status 200. Both `woodlandscardetailing.shop` and `www.woodlandscardetailing.shop` are attached to the project.
 
 Spaceship readback confirms the intended custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com` are saved. The single immediate public DNS observation returned no delegated nameservers, which is expected during fresh registration propagation; custom-domain DNS and HTTPS are propagation pending and were not polled further.
 

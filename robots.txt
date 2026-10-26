@@ -13,4 +13,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://bayoubrilliance.shop/sitemap.xml
+Sitemap: https://woodlandscardetailing.shop/sitemap.xml

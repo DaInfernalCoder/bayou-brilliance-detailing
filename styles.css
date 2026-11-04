@@ -1340,6 +1340,10 @@ h3 {
   .footer-grid > p {
     display: none;
   }
+
+  .footer-grid > p.footer-address {
+    display: block;
+  }
 }
 
 @media (max-width: 700px) {

@@ -1,0 +1,99 @@
+{
+  "config": {
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "Permissions-Policy",
+            "value": "camera=(), microphone=(), geolocation=()"
+          }
+        ]
+      },
+      {
+        "source": "/assets/(.*)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "name": "www.woodlandscardetailing.shop",
+      "apexName": "woodlandscardetailing.shop",
+      "redirect": "woodlandscardetailing.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "woodlandscardetailing.shop",
+      "apexName": "woodlandscardetailing.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "www.bayoubrilliance.shop",
+      "apexName": "bayoubrilliance.shop",
+      "redirect": "woodlandscardetailing.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "bayoubrilliance.shop",
+      "apexName": "bayoubrilliance.shop",
+      "redirect": "woodlandscardetailing.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/about/index.html",
+    "/assets/clean-interior.jpg",
+    "/assets/dashboard-detail.jpg",
+    "/assets/favicon.svg",
+    "/assets/fonts/archivo-black.ttf",
+    "/assets/fonts/ibm-plex-mono-500.ttf",
+    "/assets/fonts/ibm-plex-mono-600.ttf",
+    "/assets/fonts/manrope-400.ttf",
+    "/assets/fonts/manrope-500.ttf",
+    "/assets/fonts/manrope-600.ttf",
+    "/assets/fonts/manrope-700.ttf",
+    "/assets/hero-foam-car.jpg",
+    "/assets/interior-finish.jpg",
+    "/assets/logo.svg",
+    "/assets/polish-closeup.jpg",
+    "/assets/polishing-work.jpg",
+    "/assets/wheel-detail.jpg",
+    "/assets/wheel-suds.jpg",
+    "/contact/index.html",
+    "/index.html",
+    "/llms.txt",
+    "/portfolio-components.css",
+    "/portfolio-components.js",
+    "/robots.txt",
+    "/script.js",
+    "/seo-pages.css",
+    "/services/exterior-car-detailing/index.html",
+    "/services/headlight-restoration/index.html",
+    "/services/index.html",
+    "/services/interior-car-detailing/index.html",
+    "/services/mobile-car-wash/index.html",
+    "/sitemap.xml",
+    "/styles.css"
+  ]
+}

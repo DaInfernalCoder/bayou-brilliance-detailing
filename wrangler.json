@@ -1,0 +1,14 @@
+{
+  "name": "bayou-brilliance-detailing",
+  "account_id": "bb8bd238dc1fcb3cb43ca82e6fe2425c",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-24",
+  "workers_dev": true,
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "html_handling": "none",
+    "not_found_handling": "none",
+    "run_worker_first": true
+  }
+}

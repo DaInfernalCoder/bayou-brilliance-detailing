@@ -12,7 +12,7 @@ Build and launch a polished Houston car detailing website, connect `woodlandscar
 - Primary market: Houston, Texas
 - Street address: 126 Wisteria Walk Cir, Spring, TX 77381
 - Public phone: +1 346-487-3778
-- Appointment link: https://cal.com/sumitdatta/auto-detail-service
+- Appointment link: https://woodlandscardetailing.shop/scheduling
 - Domain: `woodlandscardetailing.shop`
 - Registration date: 2026-07-19
 - Expiration date: 2027-07-19
